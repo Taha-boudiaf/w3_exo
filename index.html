@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+
+    <title>Document</title>
+</head>
+<body>
+    <!-- navbar -->
+    <section>
+    <nav class="navbar navbar-expand-lg fixed-top bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a style="color: white;" class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a style="color: white;"  class="nav-link" href="#band">BAND</a>
+            </li>
+            <li class="nav-item">
+              <a  style="color: white;" class="nav-link" href="#tour">TOUR</a>
+            </li>
+            <li class="nav-item">
+              <a  style="color: white;" class="nav-link" href="#contact">CONTACT</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a style="color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  MORE
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Merchandis</a>
+                  <a class="dropdown-item" href="#">Extras</a>
+                  <a class="dropdown-item" href="#">Media</a>
+                </div>
+              </li>           
+          </ul>          
+        </div>
+        <div class="box Hover">
+            <a style="color: white; href="#">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                </svg>
+            </a>
+        </div>
+      </nav>
+    </section>  
+    <!-- courasel -->
+    <section >
+        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="10000">
+                <img src="image/ny.jpg" class="d-block w-100" alt="ny">
+              </div>
+              <div class="carousel-item" data-interval="2000">
+                <img src="image/la.jpg" class="d-block w-100" alt="la">
+              </div>
+              <div class="carousel-item">
+                <img src="image/chicago.jpg" class="d-block w-100" alt="chicago">
+              </div>
+            </div>
+            
+          </div> 
+    </section>
+    <!-- the band-->
+    <section id="band">
+        <div class="container pad">
+            <div class="pad">
+                <h2 class="text-center">THE BAND</h2>
+                <br>
+                <p class="text-center txt2"><i>We love music</i></p>
+                <p class="text-center">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+                    laborum consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            
+            <div class="row d-flex justify-content-center text-center pad">
+                <div class="col">
+                    <div class="text-black" style="max-width: 18rem;">
+                        <p>Name</p>
+                            <img src="/image/band.jpg" style="width: 60%;" class="card-img-top" alt="band">                        
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="text-black" style="max-width: 18rem;">
+                        <p>Name</p>
+                            <img src="/image/band.jpg" style="width: 60%;" class="card-img-top" alt="band">                        
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="text-black" style="max-width: 18rem;">
+                        <p>Name</p>
+                            <img src="/image/band.jpg" style="width: 60%;" class="card-img-top" alt="band">                        
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Tour -->
+    <section class="background" id="tour">
+        <div class="container">
+            <div>
+                <div class="txt pad3">
+                    <h2 class="text-center">TOUR DATES</h2>
+                    <br>
+                    <p class="text-center txt2"><i>Remember to book your tickets!</i></p>
+                </div>
+
+                <div class="pad2" >
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                        September
+                          <span class="badge badge-danger badge-pill">Sold out</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            October
+                          <span class="badge badge-danger badge-pill">Sold out</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            November
+                          <span class="badge background txt badge-pill">3</span>
+                        </li>
+                      </ul>
+                </div>
+                <div class="row d-flex justify-content-center pad2">
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="image/newwork.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">New York</h5>
+                              <p class="card-text"><small class="text-muted">Fri 27 Nov 2016</small></p>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Buy Tickets</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="image/paris.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Paris</h5>
+                              <p class="card-text"><large class="text-muted">Sat 28 Nov 2016</large></p>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Buy Tickets</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="image/sanfran.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">San Francisco</h5>
+                              <p class="card-text"><small class="text-muted">Sun 29 Nov 2016</small></p>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Buy Tickets</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </section>
+    <!-- contact -->
+    <section id="contact">
+        <div class=" container">
+            <div class="text-center pad2">
+            <h2>CONTACT</h2>
+            <br>
+            <P class="txt2"><i>Fan? Drop a note!</i></P>
+        </div>
+        <div class="row pad2">
+            <div class="col-6">
+                <h6>
+                    <img src="/image/svg/location.svg" width="20" height="20" alt="location">   Chicago, US
+                </h6>
+                <h6>
+                    <img src="/image/svg/phone-call.svg" width="20" height="20" alt="phone">   Phone: +00 151515
+                </h6>
+                <h6>
+                    <img src="/image/svg/email.svg"  width="20" height="20" alt="">   Email: mail@mail.com
+                </h6>             
+            </div>
+            <div class="col-6">
+                <div class="form-row">
+                    <div class="form-group col-6">
+                      
+                      <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
+                    </div>
+                    <div class="form-group col-6">
+                      
+                      <input type="text" class="form-control" id="inputPassword4" placeholder="email">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Message">
+                  </div>
+                  <button class="btn btn-primary float-right" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        </div>
+        
+   </section>
+   <!-- map -->
+   <section>
+    <img src="/image/map.jpg" alt="map" style="width: 100%;">
+   </section>
+   <!-- footer -->
+   <footer>
+       <div class="container pad4 d-flex justify-content-center">
+           <ul>
+               <li style="display: inline;list-style-type: none;"><a href="#"><img src="/image/svg/facebook-square-color.svg" width="28" height="28" alt="" ></a></li>
+               <li style="display: inline;list-style-type: none;"><a href="#"><img src="image/svg/linkedin-square-color.svg" width="28" height="28" alt=""></a></li>
+               <li style="display: inline;list-style-type: none;"><a href="#"><img src="image/svg/instagram-color.svg" width="28" height="28" alt=""></a></li>
+               <li style="display: inline;list-style-type: none;"><a href="#"><img src="image/svg/pinterest-square-color.svg" width="28" height="28" alt=""></a></li>
+               <li style="display: inline;list-style-type: none;"><a href="#"><img src="image/svg/snapchat-square-color.svg" width="28" height="28" alt=""></a></li>
+               <li style="display: inline;list-style-type: none;"> <a href="#"><img src="image/svg/twitter-square-color.svg" width="28" height="28" alt=""></a></li>
+           </ul>    
+       </div>
+       <p class="text-center" ">Powred by
+           <a href="#">Taher Boudiaf</a>
+       </p>
+   </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

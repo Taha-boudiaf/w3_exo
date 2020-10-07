@@ -1,0 +1,66 @@
+.bg-light {
+    background-color: black !important;
+}
+
+.dropdown-toggle a {
+    color: black !important;
+}
+li:hover{
+    background-color: #ccc!important;
+}
+.navbar{
+    padding: 0 !important;
+}
+li {
+    padding-left: 1rem; 
+    padding-right: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+.dropdown-menu{
+    margin: 0 !important;
+}
+.Hover:hover{
+    background-color: #ccc;
+}
+.pad{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    max-width: 800px;
+}
+.background{
+    background-color: black;
+}
+.txt{
+    color: white;
+}
+.btn{
+    border-radius: 0px !important;
+    transition: none;
+    
+}
+.btn:hover{
+    background-color: #ccc;
+    
+}
+.btn-primary{
+    background-color: black;
+    border-color: black;
+}
+.pad2{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    
+}
+.pad3{
+    padding-top: 64px;
+    
+}
+.txt2{
+    color: #ccc;
+}
+.pad4{
+    
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
